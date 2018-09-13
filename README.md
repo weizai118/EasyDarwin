@@ -1,6 +1,17 @@
 # EasyDarwin开源流媒体服务器
 
-![snapshot](snapshot.png)
+![snapshot](./snap/easydarwin20180811.png)
+ 
+## 主要功能特点
+
+- 基于nodejs开发维护
+- 支持windows、linux平台
+- 接收RTSP流推送
+- RTSP流分发
+- 关键帧缓存
+- 秒开画面
+- Web后台管理
+- 分布式负载均衡
 
 ## 安装部署
 
@@ -8,9 +19,14 @@
 
 - 运行服务
 
+	下载release包,解压,注意,拉取代码无法双击运行,必须下载release包
+	![snapshot](fault.png)	
+
 	Windows 平台执行 `start.bat` 运行 EasyDarwin
 	
 	Linux 平台, 执行 `start.sh` 运行
+	
+	打开浏览器输入:localhost:10008,进入控制页面,默认用户名密码是admin/123456
 
 - 停止服务
 
@@ -46,13 +62,26 @@
 	npm i -g nodemon
 	npm run dev		      
 
-## 获取更多信息
-- 邮件：support@easydarwin.org
-- WEB：www.EasyDarwin.org
-- QQ交流群：436297092
-
 ## 下一步开发计划
 
 - 系统运行信息统计：CPU、内存、分发流量、累积运行时间等；
 - 拉模式转发/分发；
 - 服务端录像；
+
+
+## 技术支持
+
+- 邮件：[support@easydarwin.org](mailto:support@easydarwin.org) 
+
+- QQ交流群：**436297092**
+
+- EasyDarwin开源流媒体服务器是属于EasyDarwin开源团队的免费产品，大家免费使用，同时，EasyDarwin开源团队也能提供相应的收费技术咨询、技术服务和技术定制，谢谢大家支持！
+
+
+## 获取更多信息
+
+**EasyDarwin**开源项目：[www.EasyDarwin.org](http://www.easydarwin.org)
+
+Copyright &copy; EasyDarwin Team 2012-2018
+
+![EasyDarwin](http://www.easydarwin.org/skin/easydarwin/images/wx_qrcode.jpg)
